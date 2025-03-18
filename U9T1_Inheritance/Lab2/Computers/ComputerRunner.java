@@ -112,5 +112,20 @@ public class ComputerRunner {
                 }
             }
         }
+
+        System.out.println("---test---");
+        System.out.println(desktop1 instanceof Computer);
+        System.out.println(desktop1 instanceof Desktop);
+        System.out.println("------");
+        System.out.println(laptop1 instanceof Computer);
+        System.out.println(laptop1 instanceof Laptop);
+        System.out.println("------");
+        System.out.println(tablet1 instanceof Computer);
+        System.out.println(tablet1 instanceof Tablet);
+        System.out.println("------");
+        System.out.println(computer1 instanceof Computer);
+        System.out.println(computer1 instanceof Desktop);
+        System.out.println(computer1 instanceof Laptop);
+        System.out.println(computer1 instanceof Tablet);
     }
 }
