@@ -28,5 +28,11 @@ public class VehicleRunner {
         myBicycle.move(30);
         myBicycle.turn();
         myBicycle.brake();
+
+        Truck myTruck = new Truck("Ford F150", 4, 2440);
+        System.out.println(myTruck.getName());
+        System.out.println(myTruck.getWheels());
+        System.out.println(myTruck.getPayload());
+        System.out.println(myTruck.emptyPayload());
     }
 }
