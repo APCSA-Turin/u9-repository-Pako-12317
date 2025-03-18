@@ -16,9 +16,9 @@ public class TestRunner {
 
         // Test VideoGame
         VideoGame game = new VideoGame("The Last of Us", "Action", 100, 30);
-        System.out.println("VideoGame Title: " + game.getTitle());
+        System.out.println("VideoGame Title: " + game.getName());
         System.out.println("VideoGame Genre: " + game.getGenre());
-        System.out.println("VideoGame Platform: " + game.getPlatform());
+        System.out.println("VideoGame Platform: " + game.getLevels());
         System.out.println("VideoGame Inventory: " + game.getInventory());
     }
 }
