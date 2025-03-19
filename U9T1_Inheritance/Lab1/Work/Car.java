@@ -1,3 +1,4 @@
+package Work;
 public class Car extends Vehicle {
     private String fabric;
 

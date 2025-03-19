@@ -1,3 +1,4 @@
+package Work;
 public class Vehicle {
     private String name;
     private int wheels;

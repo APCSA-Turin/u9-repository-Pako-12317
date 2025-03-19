@@ -1,3 +1,4 @@
+package Work;
 public class Truck extends Vehicle{
     
     private int payload;
