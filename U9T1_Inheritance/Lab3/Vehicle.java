@@ -1,35 +1,35 @@
-public class Vehicle {
-    private String licensePlate;
-    private double tollFee;
-    private int passengers;
+// public class Vehicle {
+//     private String licensePlate;
+//     private double tollFee;
+//     private int passengers;
     
-   public Vehicle(String licensePlate, double tollFee, int passengers) {
-    this.licensePlate = licensePlate;
-    this.tollFee = tollFee;
-    this.passengers = passengers;
-   }
+//    public Vehicle(String licensePlate, double tollFee, int passengers) {
+//     this.licensePlate = licensePlate;
+//     this.tollFee = tollFee;
+//     this.passengers = passengers;
+//    }
   
-   public String getLicensePlate() {
-    return licensePlate;
-   }
+//    public String getLicensePlate() {
+//     return licensePlate;
+//    }
   
-   public double getTollFee() {
-    return tollFee;
-   }
+//    public double getTollFee() {
+//     return tollFee;
+//    }
 
-   public void setTollFee(double tollFee) {
-       this.tollFee = tollFee;
-   }
+//    public void setTollFee(double tollFee) {
+//        this.tollFee = tollFee;
+//    }
   
-   public int getPassengers() {
-    return passengers;
-   }
+//    public int getPassengers() {
+//     return passengers;
+//    }
   
-   public double calculateTollPrice() {
-    return tollFee * passengers;
-   }
+//    public double calculateTollPrice() {
+//     return tollFee * passengers;
+//    }
 
-   public void setPassengers(int passengers) {
-    this.passengers = passengers;
-   }
-}
+//    public void setPassengers(int passengers) {
+//     this.passengers = passengers;
+//    }
+// }
