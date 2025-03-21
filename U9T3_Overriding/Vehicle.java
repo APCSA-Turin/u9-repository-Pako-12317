@@ -38,4 +38,8 @@ public class Vehicle {
        System.out.println("Toll Fee: " + getTollFee());
        System.out.println("Passengers: " + getPassengers());
    }
+
+   public void isTaxi() {
+       System.out.println("This is not a taxi.");
+   }
 }

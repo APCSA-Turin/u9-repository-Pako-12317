@@ -30,4 +30,9 @@ public class Taxi extends Car {
         super.printInfo();
         System.out.println("Fare Collected: " + getFareCollected());
     }
+
+    @Override
+    public void isTaxi() {
+        System.out.println("This is a taxi.");
+    }
 }
