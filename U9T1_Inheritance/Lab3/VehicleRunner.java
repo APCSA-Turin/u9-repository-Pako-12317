@@ -1,4 +1,8 @@
+package U9T1_Inheritance.Lab3;
+
 public class VehicleRunner {
+    //suppress errors
+    @SuppressWarnings("all")
     public static void main(String[] args) {
         // -------------- LAB PART 1 -----------------
         // a. write code to create a Vehicle object with license "MC56WQ",
